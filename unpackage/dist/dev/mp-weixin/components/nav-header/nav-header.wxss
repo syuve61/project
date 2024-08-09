@@ -1,0 +1,27 @@
+
+.container.data-v-9a5a6ef3 {
+  background-color: #ffffff;
+}
+.nav-menu.data-v-9a5a6ef3 {
+  margin-top: 10rpx;
+  white-space: nowrap;
+  width: 100%;
+  padding: 0 20rpx;
+}
+.nav-item.data-v-9a5a6ef3 {
+  margin: 3rpx 0;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-bottom: 2px solid transparent;
+}
+.nav-item.active.data-v-9a5a6ef3 {
+  font-weight: bold;
+  color: #6fb1f9;
+  border-bottom-color: #6fb1f9;
+  border-bottom-width: 3px;
+}
+.nav-item image.data-v-9a5a6ef3 {
+  width: 25rpx;
+  height: 25rpx;
+}

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "消息",
+  "navigationBarBackgroundColor": "#ffffff",
+  "usingComponents": {
+    "msgtarbar": "../../components/msgtarbar/msgtarbar",
+    "inform": "../../components/inform/inform",
+    "my": "../../components/My/My",
+    "like": "../../components/like/like",
+    "chat": "../../components/chat/chat"
+  }
+}

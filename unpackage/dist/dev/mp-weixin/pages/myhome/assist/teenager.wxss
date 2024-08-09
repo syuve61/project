@@ -1,0 +1,62 @@
+
+.back_image.data-v-22e99c8d {
+		padding: 0 20rpx;
+		background-size: 100%;
+}
+.back_image image.data-v-22e99c8d {
+		border-radius: 5px;
+		width: 100%;
+		-webkit-clip-path: inset(0% 0% 20% 0%);
+		        clip-path: inset(0% 0% 20% 0%);
+}
+.p1.data-v-22e99c8d {
+		display: flex;
+		justify-content: center;
+		font-weight: 600;
+		font-size: 16px;
+		margin-bottom: 100rpx;
+		letter-spacing: 2px;
+		/* 调整字距 */
+}
+.p2.data-v-22e99c8d {
+		display: flex;
+		justify-content: center;
+		margin: 20rpx;
+}
+.p3.data-v-22e99c8d {
+		font-size: 12px;
+		width: 80%;
+}
+.qsn.data-v-22e99c8d {
+		position: absolute;
+		width: 100%;
+		top: 90%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+.btn.data-v-22e99c8d {
+		height: 50px;
+		width: 200px;
+		background-color: #01bcff;
+		border-radius: 50px;
+		color: #ffffff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+}
+.teen.data-v-22e99c8d {
+		background-color: #edf7ff;
+		/* background-color: #01bcff; */
+		height: 60rpx;
+		width: 60rpx;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 50%;
+		margin: 0 20rpx;
+}
+.teen_image.data-v-22e99c8d {
+		height: 30rpx;
+		width: 30rpx;
+}

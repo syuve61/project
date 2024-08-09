@@ -1,0 +1,1 @@
+<view class="container data-v-9a5a6ef3">{{a}} <scroll-view class="nav-menu data-v-9a5a6ef3" scroll-x="true"><view wx:for="{{b}}" wx:for-item="item" wx:key="b" class="{{['nav-item', 'data-v-9a5a6ef3', item.c && 'active']}}" bindtap="{{item.d}}">{{item.a}}</view></scroll-view></view>

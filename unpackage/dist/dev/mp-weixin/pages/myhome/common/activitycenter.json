@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "活动",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "allactive": "../../../components/allactive/allactive",
+    "mypartactive": "../../../components/mypartactive/mypartactive"
+  }
+}

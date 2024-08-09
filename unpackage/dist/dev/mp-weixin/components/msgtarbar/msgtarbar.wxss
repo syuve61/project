@@ -1,0 +1,25 @@
+
+.container.data-v-eb55f691 {
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  height: 48px;
+}
+.nav-item.data-v-eb55f691 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30rpx;
+}
+.nav-item image.data-v-eb55f691 {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+}
+.active.data-v-eb55f691 {
+  color: #55aaff;
+  font-weight: bold;
+}

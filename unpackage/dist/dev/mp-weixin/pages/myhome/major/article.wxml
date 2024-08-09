@@ -1,0 +1,1 @@
+<view class="page data-v-44cc7a0e"><view wx:if="{{a}}" class=" data-v-44cc7a0e"><view wx:for="{{b}}" wx:for-item="item" wx:key="c" class="data-v-44cc7a0e"><post-user wx:if="{{item.b}}" class="data-v-44cc7a0e" u-i="{{item.a}}" bind:__l="__l" u-p="{{item.b}}"></post-user></view></view><view wx:else class=" data-v-44cc7a0e"><view class="data-v-44cc7a0e">你暂未发布帖子</view></view></view>

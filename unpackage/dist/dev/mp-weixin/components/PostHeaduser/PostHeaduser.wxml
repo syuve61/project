@@ -1,0 +1,1 @@
+<view class="header data-v-e2fc4b86"><view class="photo data-v-e2fc4b86"><image src="{{a}}" class="avatar data-v-e2fc4b86" mode=""></image></view><view class="name data-v-e2fc4b86">{{b}}</view><view class="header_right data-v-e2fc4b86"><view class="flw-btn data-v-e2fc4b86" catchtap="{{c}}">删除 </view></view></view>

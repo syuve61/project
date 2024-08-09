@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "post-head": "../PostHead/PostHead",
+    "post-article": "../PostArticle/PostArticle",
+    "post-image": "../PostImage/PostImage",
+    "post-footer": "../PostFooter/PostFooter"
+  }
+}

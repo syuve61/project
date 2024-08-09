@@ -1,0 +1,39 @@
+
+	/* 保持其他元素的布局不变 */
+.icon-container.data-v-a4d9133e {
+		margin-left: 30rpx;
+		display: flex;
+		flex-direction: column;
+		/* 将排列方向改为横向 */
+		height: 100%;
+}
+.icon-item.data-v-a4d9133e {
+		display: flex;
+		width: 100%;
+		/* 取消固定宽度 */
+		height: 100%;
+		cursor: pointer;
+		margin: 20rpx 0;
+}
+.icon-item image.data-v-a4d9133e {
+		margin-left: auto;
+		width: 40rpx;
+		height: 40rpx;
+}
+.text-container.data-v-a4d9133e {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		margin-left: 20rpx;
+}
+.right.data-v-a4d9133e {
+		display: flex;
+		flex-grow: 1;
+		align-items: center;
+		margin-right: 0rpx;
+}
+.right image.data-v-a4d9133e {
+		width: 40rpx;
+		height: 40rpx;
+		margin: 0 0 0 90%;
+}

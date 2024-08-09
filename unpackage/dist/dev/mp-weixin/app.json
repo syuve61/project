@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/atten/index",
+    "pages/framer/index",
+    "pages/message/index",
+    "pages/login/login",
+    "pages/myhome/index",
+    "pages/myhome/major/article",
+    "pages/myhome/major/comments",
+    "pages/myhome/major/files",
+    "pages/myhome/common/history",
+    "pages/myhome/common/punchcard",
+    "pages/myhome/major/collections",
+    "pages/myhome/common/sweep",
+    "pages/myhome/common/recyclebin",
+    "pages/myhome/common/activitycenter",
+    "pages/search/index",
+    "pages/detail/index",
+    "pages/myhome/assist/contact",
+    "pages/myhome/assist/teenager",
+    "pages/myhome/assist/setting",
+    "pages/myhome/dateCard/personal",
+    "pages/myhome/dateCard/interaction"
+  ],
+  "window": {
+    "immersion": "false",
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#00ffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/home.png",
+        "selectedIconPath": "static/image/dianjihome.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/atten/index",
+        "iconPath": "static/image/guanzhu.png",
+        "selectedIconPath": "static/image/dianjiguanzhu.png",
+        "text": "关注"
+      },
+      {
+        "pagePath": "pages/framer/index",
+        "iconPath": "static/image/chuangzuo.png",
+        "selectedIconPath": "static/image/dianjichuangzuo.png",
+        "text": "创作"
+      },
+      {
+        "pagePath": "pages/message/index",
+        "iconPath": "static/image/xiaoxi.png",
+        "selectedIconPath": "static/image/dianjixiaoxi.png",
+        "text": "消息"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userInfo": {
+      "desc": "获取你的公开信息(昵称、头像等)"
+    }
+  },
+  "usingComponents": {}
+}

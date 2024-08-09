@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "major": "../../components/major/major",
+    "often": "../../components/often/often",
+    "assist": "../../components/assist/assist"
+  }
+}

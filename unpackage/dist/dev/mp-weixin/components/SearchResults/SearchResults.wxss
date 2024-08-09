@@ -1,0 +1,20 @@
+
+.results.data-v-2b895b76 {
+  margin-top: 20rpx;
+}
+.post-item.data-v-2b895b76 {
+  background-color: #ffffff;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+  border-radius: 10rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.1);
+}
+.post-title.data-v-2b895b76 {
+  font-weight: bold;
+  font-size: 32rpx;
+  margin-bottom: 10rpx;
+}
+.post-content.data-v-2b895b76 {
+  font-size: 28rpx;
+  color: #666666;
+}

@@ -1,0 +1,1 @@
+<view class="header data-v-fb823393"><view class="photo data-v-fb823393"><image src="{{a}}" class="avatar data-v-fb823393" mode=""></image></view><view class="name data-v-fb823393">{{b}}</view><view class="header_right data-v-fb823393"><view wx:if="{{c}}" class="flw-btn data-v-fb823393" catchtap="{{e}}">{{d}}</view></view></view>

@@ -1,0 +1,1 @@
+<view class="container data-v-eb55f691"><view wx:for="{{a}}" wx:for-item="item" wx:key="c" class="{{['nav-item', 'data-v-eb55f691', item.d && 'active']}}" bindtap="{{item.e}}"><image class="data-v-eb55f691" src="{{item.a}}" alt=""/><view class="data-v-eb55f691">{{item.b}}</view></view></view>

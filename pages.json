@@ -1,0 +1,210 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path" : "pages/atten/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "关注",
+				"navigationBarBackgroundColor:" : "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/framer/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "创作",
+				"navigationBarBackgroundColor:" : "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/message/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "消息",
+				"navigationBarBackgroundColor" : "#ffffff"
+			}
+		},
+		{
+			"path" : "pages/login/login",
+			"style" : 
+			{
+				"navigationBarTitleText" : "登录",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/myhome/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/myhome/major/article",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/myhome/major/comments",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/myhome/major/files",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/myhome/common/history",
+			"style" : 
+			{
+				"navigationBarTitleText" : "浏览历史",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/myhome/common/punchcard",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/myhome/major/collections",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/myhome/common/sweep",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/myhome/common/recyclebin",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/myhome/common/activitycenter",
+			"style" : 
+			{
+				"navigationBarTitleText" : "活动",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/search/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/detail/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/myhome/assist/contact",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/myhome/assist/teenager",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/myhome/assist/setting",
+			"style" : 
+			{
+				"navigationBarTitleText" : "设置",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/myhome/dateCard/personal",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/myhome/dateCard/interaction",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		}
+	],
+	"tabBar": {
+		  "selectedColor": "#00ffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/image/home.png",
+			"selectedIconPath": "static/image/dianjihome.png",
+			"text": "主页"
+		}, {
+			"pagePath": "pages/atten/index",
+			"iconPath": "static/image/guanzhu.png",
+			"selectedIconPath": "static/image/dianjiguanzhu.png",
+			"text": "关注"
+		}, {
+			"pagePath": "pages/framer/index",
+			"iconPath": "static/image/chuangzuo.png",
+			"selectedIconPath": "static/image/dianjichuangzuo.png",
+			"text": "创作"
+		}, {
+			"pagePath": "pages/message/index",
+			"iconPath": "static/image/xiaoxi.png",
+			"selectedIconPath": "static/image/dianjixiaoxi.png",
+			"text": "消息"
+		}]
+	},
+	"globalStyle": {
+		"immersion": "false",
+		// "navigationStyle":"custom",去除顶部状态栏
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

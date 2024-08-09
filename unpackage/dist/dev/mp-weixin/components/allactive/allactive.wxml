@@ -1,0 +1,1 @@
+<view class="allactive"><view wx:for="{{a}}" wx:for-item="activeItem" wx:key="d" class="active"><view class="colunm"><view class="row"><text>{{activeItem.a}}</text><image src="/static/image/right.png" class="right" mode=""></image></view><text class="row2">{{activeItem.b}}</text></view><image class="activeimage" src="{{activeItem.c}}" alt="Active Image"></image></view></view>

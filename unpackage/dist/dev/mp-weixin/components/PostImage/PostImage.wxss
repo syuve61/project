@@ -1,0 +1,31 @@
+
+.container.data-v-e8d62c29 {
+		width: 100%;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+}
+.single-image.data-v-e8d62c29 {
+		width: 100%;
+}
+.flex-container.data-v-e8d62c29 {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 5px;
+}
+.flex-item.data-v-e8d62c29 {
+		flex-basis: 30%;
+		/* 每个图片容器的宽度为容器宽度的 20% */
+		height: 250rpx;
+		object-fit: cover;
+		/* 按比例缩小图片而不裁剪 */
+		border-radius: 10%;
+}
+.flex-item image.data-v-e8d62c29 {}
+.plus-text.data-v-e8d62c29 {
+		grid-column: 2;
+		grid-row: 2;
+		text-align: center;
+		line-height: 100px;
+		font-size: 24px;
+}

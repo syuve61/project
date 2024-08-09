@@ -1,0 +1,36 @@
+
+/* 添加你的样式 */
+.File {
+	background-color: #d9d9d9;
+  margin: 10rpx;
+  display: flex;
+  align-items: center;
+  padding: 10rpx;
+}
+.download_file {
+  display: flex;
+  align-items: center;
+}
+.allfile {
+  height: 80rpx;
+  width: 80rpx;
+}
+.allname {
+  font-weight: bold;
+  margin-left: 10rpx;
+}
+.file-icon {
+  height: 40rpx;
+  width: 40rpx;
+  margin-right: 10rpx;
+}
+.column{
+	display: flex;
+	flex-direction: column;
+}
+.leftauto{
+	margin-left: auto;
+	margin-right: 20rpx;
+}
+view {
+}

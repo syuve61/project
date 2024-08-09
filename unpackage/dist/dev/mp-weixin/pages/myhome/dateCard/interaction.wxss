@@ -1,0 +1,44 @@
+
+.error.data-v-2a0b670f {
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 20px;
+		font-weight: bold;
+}
+.container.data-v-2a0b670f {
+	  padding: 20px;
+}
+.picker.data-v-2a0b670f {
+	  border-bottom: 2px solid #01bcff;
+	  height: 60px;
+	  line-height: 60px;
+	  text-align: center;
+}
+.save.data-v-2a0b670f {
+		width: 100vw;
+		height: 40rpx;
+}
+.submit.data-v-2a0b670f {
+		margin-left: auto;
+		height: 30px;
+		width: 60px;
+
+		font-weight: bold;
+		font-size: 15px;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+.p1.data-v-2a0b670f {
+		color: #01bcff;
+		border-bottom: 2px solid #01bcff;
+}
+.input_name.data-v-2a0b670f {
+		margin: 30rpx 20rpx;
+		border-bottom: 2px solid #01bcff;
+		height: 60rpx;
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "浏览历史",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "post": "../../../components/Post/Post"
+  }
+}

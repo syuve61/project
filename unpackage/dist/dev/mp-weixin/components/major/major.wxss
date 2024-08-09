@@ -1,0 +1,25 @@
+
+.icon-container.data-v-ad4798ed {
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.icon-item.data-v-ad4798ed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  height: 100%;
+  cursor: pointer;
+}
+.icon-item image.data-v-ad4798ed {
+  width: 60rpx;
+  height: 60rpx;
+  margin-bottom: 5px;
+}
+.icon-item text.data-v-ad4798ed {
+  font-size: 12px;
+}

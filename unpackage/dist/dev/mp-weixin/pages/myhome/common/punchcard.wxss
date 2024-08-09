@@ -1,0 +1,145 @@
+
+.page.data-v-db487976 {
+		width: 100vw;
+		height: 100vh;
+}
+.card.data-v-db487976 {
+		margin: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 80vw;
+		height: 70vh;
+		perspective: 1000px;
+		/* 设置透视效果 */
+}
+.card-inner.data-v-db487976 {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		transition: transform 0.6s;
+		transform-style: preserve-3d;
+		/* 保持3D变换效果 */
+}
+.card-inner image.data-v-db487976 {
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+}
+.card-inner.is-flipped.data-v-db487976 {
+		transform: rotateY(180deg);
+		/* 翻转180度 */
+}
+.card-front.data-v-db487976,
+	.card-back.data-v-db487976 {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		-webkit-backface-visibility: hidden;
+		        backface-visibility: hidden;
+		/* 隐藏背面 */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		color: white;
+		font-size: 20px;
+		border-radius: 8px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-back.data-v-db487976 {
+		transform: rotateY(180deg);
+		/* 初始状态为背面 */
+}
+.date.data-v-db487976 {
+		font-size: 25px;
+		font-weight: 500;
+		padding: 20rpx 70rpx;
+}
+.open-button.data-v-db487976 {
+		width: 400rpx;
+		height: 60rpx;
+		position: absolute;
+		bottom: 60rpx;
+		background-color: #9fefd6;
+		color: black;
+		padding: 10rpx 20rpx;
+		border-radius: 5rpx;
+		cursor: pointer;
+}
+.date-box.data-v-db487976 {
+		position: absolute;
+		top: 20rpx;
+		left: 20rpx;
+		background-color: none;
+		padding: 10rpx;
+		border-radius: 5rpx;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+}
+.big-date.data-v-db487976 {
+		font-size: 65px;
+		font-weight: bold;
+}
+.small-date.data-v-db487976 {
+		font-size: 16px;
+}
+.date-box-back.data-v-db487976 {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 20rpx;
+		right: 20rpx;
+		background-color: none;
+		padding: 10rpx;
+		border-radius: 5rpx;
+		text-align: center;
+		border: 2px solid #ffffff;
+}
+.back-day.data-v-db487976 {
+		font-size: 60px;
+		font-weight: bold;
+		color: white;
+		border-bottom: 2px solid #ffffff;
+}
+.back-date.data-v-db487976 {
+		font-size: 20px;
+		font-weight: bold;
+}
+.zuoxia.data-v-db487976 {
+		position: absolute;
+		bottom: 20rpx;
+		left: 20rpx;
+		width: 80rpx;
+		height: 80rpx;
+		background-color: rgba(182, 182, 174, 0.3);
+		/* 使用 rgba 设置透明度 */
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+.zuoxia image.data-v-db487976 {
+		border-radius: 50%;
+		height: 40rpx;
+		width: 40rpx;
+}
+.right-bottom-box.data-v-db487976 {
+		position: absolute;
+		bottom: 20rpx;
+		right: 20rpx;
+		display: flex;
+		align-items: center;
+		background-color: rgba(182, 182, 174, 0.6);
+		padding: 10rpx;
+		border-radius: 50rpx;
+}
+.today-card.data-v-db487976 {
+		font-size: 20px;
+		margin: 0 30rpx;
+}
+.arrow.data-v-db487976 {
+		font-size: 25px;
+		font-weight: bold;
+}
